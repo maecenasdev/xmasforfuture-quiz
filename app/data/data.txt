@@ -1,0 +1,78 @@
+SARCA XMAS FOR FUTURE
+ 
+TEST TOTEM
+ 
+YOU FOR FUTURE
+ 
+Quanto sei green?
+Fai il test, misura la tua impronta verde e ottieni tanti consigli per un futuro sempre più sostenibile.
+ 
+1. Come ti sposti più spesso in città?
+
+A. In auto privata
+B. Con i mezzi pubblici
+C. In bici o monopattino
+D. A piedi
+
+2. Quali sono le tue abitudini quando fai la spesa?
+
+A. Cerco soprattutto convenienza
+B. Scelgo confezioni monouso per praticità
+C. Porto con me borse riutilizzabili e riduco gli imballaggi
+D. Prediligo prodotti sfusi, locali e stagionali
+ 
+ 
+3. In casa, come gestisci l’energia elettrica?
+
+A. Non ci penso molto
+B. Spengo le luci quando esco da una stanza
+C. Uso lampadine LED ed elettrodomestici efficienti
+D. Ho installato anche fonti rinnovabili (es. pannelli solari)
+4. Cosa fai con i rifiuti?
+
+A. Li butto tutti insieme
+B. Differenzio qualche volta
+C. Faccio regolarmente la raccolta differenziata
+D. Cerco anche di ridurre e riutilizzare
+5. Quali azioni adotti per ridurre il consumo d’acqua?
+
+A. Nessuna, non ci penso mai.
+B. Chiudo il rubinetto mentre lavo i denti
+C. Faccio docce brevi
+D. Raccolgo acqua piovana o di scarto e adotto sistemi di risparmio idrico
+6. Come scegli i prodotti di uso quotidiano?
+
+A. Scelgo i più economici, se si rompono li ricompro
+
+B. Preferisco prodotti che durano di più per evitare sprechi
+
+C. Controllo che i materiali siano ecologici
+
+D. Scelgo prodotti ecologici e, se possibile, riciclati o riciclabili anche se costano di più
+
+ 
+Profili con spiegazione e consigli
+1. Il Distratto Ecologico / La distratta Ecologica
+
+Non presti molto attenzione alla sostenibilità, ma non è mai troppo tardi per cominciare!
+Consiglio: Inizia con piccole azioni facili, come differenziare i rifiuti o ridurre l’uso di plastica monouso. Ogni piccola azione conta!
+
+2. L’Apprendista Green
+
+Hai già qualche buona abitudine, ma non è ancora una costanza. L’importante è cominciare con il piede giusto e non smettere di migliorare!
+
+Consiglio: Trasforma i gesti saltuari in routine: ad esempio, usa la bici o vai a piedi per i brevi spostamenti e porta con te una borraccia.
+
+3. Super Eco!
+
+Congratulazioni! Adotti abitudini attente e coerenti, che riducono davvero l’impatto ambientale.
+Consiglio: Condividi le tue buone pratiche con amici e famiglia: il cambiamento è più forte se contagioso!
+
+4. Green Ambassador
+
+Complimenti! Ti impegni molto per vivere in modo davvero sostenibile, sei un esempio per chi ti circonda.
+
+Consiglio: Continua così e magari approfondisci temi come autoproduzione, orto urbano o gruppi di acquisto solidale.
+C’è sempre spazio per migliorare ancora.
+
+git remote add origin git@github-sofy:maecenasdev/xmasforfuture-quiz.gitgit status

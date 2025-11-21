@@ -1,0 +1,14 @@
+.track {
+    background-color: var(--green);
+    border-radius: 9999px;
+    width: 100%;
+    height: 3vw;
+    overflow: hidden;
+    border: 5px solid var(--green);
+}
+
+.value {
+  height: 100%;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
