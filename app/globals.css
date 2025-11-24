@@ -20,6 +20,12 @@
   }
 }
 
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
   background: #a0b0a7;
   color: var(--foreground);
