@@ -151,10 +151,17 @@ export default function Quiz() {
 
   const backgroundFreezeSeconds =
     step === totalQuestions + 1 ? resultFrameSeconds : undefined;
+  const backgroundKey =
+    backgroundFreezeSeconds !== undefined
+      ? `freeze-${backgroundFreezeSeconds}`
+      : "loop";
 
   return (
     <div className={styles.quiz}>
-      <BackgroundVideo pauseAtSeconds={backgroundFreezeSeconds} />
+      <BackgroundVideo
+        key={backgroundKey}
+        pauseAtSeconds={backgroundFreezeSeconds}
+      />
 
       {/* contenuto verticale "tipo mobile" */}
       <main className={styles.quizMain}>
