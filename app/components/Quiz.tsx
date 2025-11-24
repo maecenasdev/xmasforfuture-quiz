@@ -2,6 +2,7 @@
 "use client";
 
 import { useState } from "react";
+import { BackgroundVideo } from "./BackgroundVideo";
 import { QUESTIONS } from "@/app/data/questions";
 import type { AnswerOption } from "@/app/data/questions";
 import styles from "./Quiz.module.css";
@@ -117,34 +118,44 @@ export default function Quiz() {
   let resultTitle = "";
   let resultText = "";
   let resultTip = "";
+  let resultFrameSeconds = 3;
   if (ratio < 0.25) {
     resultTitle = "1. Il Distratto Ecologico / La Distratta Ecologica";
     resultText =
       "Non presti molto attenzione alla sostenibilità, ma non è mai troppo tardi per cominciare!";
     resultTip =
       "Inizia con piccole azioni facili, come differenziare i rifiuti o ridurre l’uso di plastica monouso. Ogni gesto conta!";
+    resultFrameSeconds = 3;
   } else if (ratio < 0.5) {
     resultTitle = "2. L’Apprendista Green";
     resultText =
       "Hai già qualche buona abitudine, ma non è ancora una costanza. L’importante è continuare a migliorare!";
     resultTip =
       "Trasforma i gesti saltuari in routine, usa la bici o vai a piedi per i brevi spostamenti e porta con te una borraccia.";
+    resultFrameSeconds = 7;
   } else if (ratio < 0.75) {
     resultTitle = "3. Super Eco!";
     resultText =
       "Congratulazioni! Adotti abitudini attente e coerenti, che riducono davvero l’impatto ambientale.";
     resultTip =
       "Condividi le tue buone pratiche con amici e famiglia: il cambiamento è più forte se contagioso!";
+    resultFrameSeconds = 9;
   } else {
     resultTitle = "4. Green Ambassador";
     resultText =
       "Complimenti! Ti impegni molto per vivere in modo sostenibile, sei un esempio per chi ti circonda.";
     resultTip =
       "Continua così e approfondisci temi come autoproduzione, orto urbano o gruppi di acquisto solidale.";
+    resultFrameSeconds = 13;
   }
+
+  const backgroundFreezeSeconds =
+    step === totalQuestions + 1 ? resultFrameSeconds : undefined;
 
   return (
     <div className={styles.quiz}>
+      <BackgroundVideo pauseAtSeconds={backgroundFreezeSeconds} />
+
       {/* contenuto verticale "tipo mobile" */}
       <main className={styles.quizMain}>
         {step > 0 && step <= totalQuestions && (
